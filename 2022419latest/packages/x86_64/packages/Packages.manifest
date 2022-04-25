@@ -1,0 +1,3075 @@
+Package: UnblockNeteaseMusic-Go
+Version: 0.2.13-2
+Depends: libc
+Source: /home/lede/feeds/packages/multimedia/UnblockNeteaseMusic-Go
+SourceName: UnblockNeteaseMusic-Go
+License: GPL-3.0
+Section: multimedia
+SourceDateEpoch: 1648965454
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 2586938
+Filename: UnblockNeteaseMusic-Go_0.2.13-2_x86_64.ipk
+Size: 2581630
+SHA256sum: 32284b9010dc1301dd0a682761e8d073d20a72b39137a7fa31762159416607d2
+Description:  Revive Netease Cloud Music (Golang)
+
+Package: adguardhome
+Version: 0.107.6-1
+Depends: libc, ca-bundle
+Source: /home/lede/feeds/packages/net/adguardhome
+SourceName: adguardhome
+License: GPL-3.0-only
+LicenseFiles: LICENSE.txt
+Section: net
+SourceDateEpoch: 1650046211
+Maintainer: Dobroslaw Kijowski <dobo90@gmail.com>
+Architecture: x86_64
+Installed-Size: 11229202
+Filename: adguardhome_0.107.6-1_x86_64.ipk
+Size: 11210664
+SHA256sum: 199eeff0b46486edfc1596a745520a0de6b9d338e2953efbd26d578b2d8dec90
+Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
+
+Package: aliyundrive-webdav
+Version: 1.3.1-1
+Depends: libc
+Source: /home/lede/feeds/packages/multimedia/aliyundrive-webdav
+SourceName: aliyundrive-webdav
+License: MIT
+Section: multimedia
+SourceDateEpoch: 1649140914
+Maintainer: messense <messense@icloud.com>
+Architecture: x86_64
+Installed-Size: 2621546
+Filename: aliyundrive-webdav_1.3.1-1_x86_64.ipk
+Size: 2622682
+SHA256sum: 2fda8917634be514d7386d9f2fba4902395cfd5ec258235d1c8f72ce4f531fff
+Description:  WebDAV server for AliyunDrive.
+
+Package: aria2
+Version: 1.36.0-1
+Depends: libc, zlib, libstdcpp6, libopenssl1.1
+Source: /home/lede/feeds/packages/net/aria2
+SourceName: aria2
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Require-User: aria2=6800:aria2=6800
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:tatsuhiro_tsujikawa:aria2
+Maintainer: Imre Kaloz <kaloz@openwrt.org>, Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: x86_64
+Installed-Size: 615332
+Filename: aria2_1.36.0-1_x86_64.ipk
+Size: 615981
+SHA256sum: 2c8fb39b306b314020dfb552c2b38742b37a4055d574d098475c266ce1743f35
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: ariang
+Version: 1.2.3-1
+Depends: libc, aria2, uhttpd
+Source: /home/lede/feeds/packages/net/ariang
+SourceName: ariang
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: all
+Installed-Size: 983422
+Filename: ariang_1.2.3-1_all.ipk
+Size: 984093
+SHA256sum: ea06896c9dee86e10bbbc5514c20aea509333eeb9a75fc2e68390a7bb921f183
+Description:  AriaNg is a web frontend making aria2 easier to use. AriaNg is written in pure html & javascript, thus it does not need any compilers or runtime environment.
+
+Package: attr
+Version: 2.5.1-1
+Depends: libc, libattr
+Source: /home/lede/feeds/packages/utils/attr
+SourceName: attr
+License: GPL-2.0-or-later
+LicenseFiles: doc/COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: x86_64
+Installed-Size: 11893
+Filename: attr_2.5.1-1_x86_64.ipk
+Size: 12669
+SHA256sum: 80e7b4df3946bb793a049837a24aa9de70022d80f90378582f2e18354f807eee
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: avahi-dbus-daemon
+Version: 0.8-7
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: /home/lede/feeds/packages/libs/avahi
+SourceName: avahi-dbus-daemon
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: x86_64
+Installed-Size: 39312
+Filename: avahi-dbus-daemon_0.8-7_x86_64.ipk
+Size: 40540
+SHA256sum: a43931a4e06c1c2ce49f8604f0bde9c29a874c6b0d2fecf3e1fd09a4ad11fa17
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: bash
+Version: 5.1.16-1
+Depends: libc, libncurses6, libreadline8
+Source: /home/lede/feeds/packages/utils/bash
+SourceName: bash
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:gnu:bash
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: x86_64
+Installed-Size: 466875
+Filename: bash_5.1.16-1_x86_64.ipk
+Size: 467739
+SHA256sum: c711a6f75e31793557480229eead541d19fed1d9ad517927f9e412652907cee0
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: bc
+Version: 1.06.95-1
+Depends: libc, libreadline8, libncurses6
+Source: /home/lede/feeds/packages/utils/bc
+SourceName: bc
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+Maintainer: Bruno Randolf <br1@einfach.org>
+Architecture: x86_64
+Installed-Size: 35755
+Filename: bc_1.06.95-1_x86_64.ipk
+Size: 36666
+SHA256sum: dcf69c053114c19005e903dd823dc573c44e868b9bd017e5e7163aa77d2211ce
+Description:  bc is a language that supports arbitrary precision numbers with
+ interactive execution of statements.
+
+Package: boost-date_time
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: /home/lede/feeds/packages/libs/boost
+SourceName: boost-date_time
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: x86_64
+Installed-Size: 962
+Filename: boost-date_time_1.76.0-1_x86_64.ipk
+Size: 1790
+SHA256sum: f53e5c47caee53ff4c985a024612ae081cb3b50b107eb5cf9232e3a12816a9b2
+Description:  This package contains the Boost date_time library.
+
+Package: boost-program_options
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: /home/lede/feeds/packages/libs/boost
+SourceName: boost-program_options
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: x86_64
+Installed-Size: 68114
+Filename: boost-program_options_1.76.0-1_x86_64.ipk
+Size: 68973
+SHA256sum: 5497eb32f253ff306bbff6f5a03773405b6f1dacda9bc1a8c030c32b0dfa9224
+Description:  This package contains the Boost program_options library.
+
+Package: boost-system
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: /home/lede/feeds/packages/libs/boost
+SourceName: boost-system
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: x86_64
+Installed-Size: 949
+Filename: boost-system_1.76.0-1_x86_64.ipk
+Size: 1768
+SHA256sum: eeea2b0b71486cfe554d339f04a49982b321ea4f7df0d5d48042eec38058bf9b
+Description:  This package contains the Boost system library.
+
+Package: boost
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: /home/lede/feeds/packages/libs/boost
+SourceName: boost
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: x86_64
+Installed-Size: 104
+Filename: boost_1.76.0-1_x86_64.ipk
+Size: 1254
+SHA256sum: 811496110badd11c9aaa3df93ca0561ffcee07a7407fd9449e033201c3664b02
+Description:  This package provides the Boost v1.76.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - json
+ - locale
+ - log
+ - math
+ - nowide
+ - program_options
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_76_0/
+
+Package: btrfs-progs
+Version: 5.16.1-1
+Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+Source: /home/lede/feeds/packages/utils/btrfs-progs
+SourceName: btrfs-progs
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+Maintainer: Karel Kočí <karel.koci@nic.cz>
+Architecture: x86_64
+Installed-Size: 977322
+Filename: btrfs-progs_5.16.1-1_x86_64.ipk
+Size: 978251
+SHA256sum: 0859c135ccf7d3bf149ebdabebdbd253e0947373f14fc63158320a415464901a
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
+Package: cgroupfs-mount
+Version: 2020-06-26-05494281-2
+Depends: libc, mount-utils
+Source: /home/lede/feeds/packages/utils/cgroupfs-mount
+SourceName: cgroupfs-mount
+Section: utils
+SourceDateEpoch: 1646960045
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: x86_64
+Installed-Size: 1239
+Filename: cgroupfs-mount_2020-06-26-05494281-2_x86_64.ipk
+Size: 2063
+SHA256sum: aa656764a2bc17f95dc9a47ba8a8901797193f5b54ca25c1522718ea665e139b
+Description:  Simple scripts to properly mount the cgroupfs hierarchy, especially structured for Debian packaging
+
+Package: containerd
+Version: 1.5.11-1
+Depends: libc, btrfs-progs, runc
+Source: /home/lede/feeds/packages/utils/containerd
+SourceName: containerd
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1649690481
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: x86_64
+Installed-Size: 38851783
+Filename: containerd_1.5.11-1_x86_64.ipk
+Size: 38611495
+SHA256sum: 10dd5488a904cdb4b51bb318b15a0e3189ba1562640ed005dbf1446747552512
+Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
+
+Package: coremark
+Version: 2022-01-03-b24e397f-1
+Depends: libc
+Source: /home/lede/feeds/packages/utils/coremark
+SourceName: coremark
+License: Apache-2.0
+LicenseFiles: LICENSE.md
+Section: utils
+SourceDateEpoch: 1646960045
+Maintainer: Lim Guo Wei <limguowei@gmail.com> Aleksander Jan Bajkowski <olek2@wp.pl>
+Architecture: x86_64
+Installed-Size: 10109
+Filename: coremark_2022-01-03-b24e397f-1_x86_64.ipk
+Size: 11019
+SHA256sum: 568d97dc60af4b60f9f225da1c6f5f864dd593258f720167d3c29f360447cc44
+Description:  Embedded Microprocessor Benchmark
+
+Package: coreutils-base64
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+Source: /home/lede/feeds/packages/utils/coreutils
+SourceName: coreutils-base64
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23631
+Filename: coreutils-base64_9.0-2_x86_64.ipk
+Size: 24424
+SHA256sum: d5b9a45c9561c3b3bfab5656187b702d8860b44a61648b47b177ea8e3e0a0959
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-stat
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+Source: /home/lede/feeds/packages/utils/coreutils
+SourceName: coreutils-stat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 45209
+Filename: coreutils-stat_9.0-2_x86_64.ipk
+Size: 46035
+SHA256sum: 9ff1577f13999c801b72face1a257276705b6729da3d25d190ba5ed150c3e538
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils
+Version: 9.0-2
+Depends: libc
+Source: /home/lede/feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 104
+Filename: coreutils_9.0-2_x86_64.ipk
+Size: 996
+SHA256sum: e7f1d9246f38bcfee2a6a00043cf7e9444fc3dce231f6ecddd84ec460d998b1b
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 7.82.0-2
+Depends: libc, libcurl4
+Source: /home/lede/feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1647623571
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: x86_64
+Installed-Size: 56853
+Filename: curl_7.82.0-2_x86_64.ipk
+Size: 57681
+SHA256sum: 232e0dbd10ac27b4caa7325de2d8ad5a7d631bddedfb75380b607ecc6717bb66
+Description:  A client-side URL transfer utility
+
+Package: dbus
+Version: 1.13.18-1
+Depends: libc, libexpat, libdbus
+Source: /home/lede/feeds/packages/utils/dbus
+SourceName: dbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: x86_64
+Installed-Size: 112819
+Filename: dbus_1.13.18-1_x86_64.ipk
+Size: 113515
+SHA256sum: a1d33d42a4f51fda4ac016b4c72257e37d8bbaa889770b77614f6583e0a439be
+Description:  Simple interprocess messaging system (daemon)
+
+Package: ddns-scripts
+Version: 2.7.8-3
+Source: /home/lede/feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1646960045
+Architecture: all
+Installed-Size: 14580
+Filename: ddns-scripts_2.7.8-3_all.ipk
+Size: 15674
+SHA256sum: 2eb4756be188a2af91e2d09ce883813c2d7001e423a5d58965030c4768e4fd98
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: /home/lede/feeds/packages/net/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: ghostmaker
+Architecture: x86_64
+Installed-Size: 10473
+Filename: dns2socks_2.1-2_x86_64.ipk
+Size: 11251
+SHA256sum: 3f868d79ebcf0b9f675b5eca2e6bbd2a1b8a92f8f39028e58857fc5d2e73f9cc
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: docker
+Version: 20.10.14-2
+Depends: libc
+Source: /home/lede/feeds/packages/utils/docker
+SourceName: docker
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1649690490
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: x86_64
+Installed-Size: 12727485
+Filename: docker_20.10.14-2_x86_64.ipk
+Size: 12659010
+SHA256sum: f3a8d1439b3a1703bfa62b5c20d4f6bc1b2215fb4a41e92d9c22b0c4c97bb2a3
+Description:  The CLI used in the Docker CE and Docker EE products.
+
+Package: dockerd
+Version: 20.10.14-2
+Depends: libc, btrfs-progs, ca-certificates, containerd, libdevmapper, libnetwork, tini, libseccomp, iptables-mod-extra, kmod-br-netfilter, kmod-ikconfig, kmod-nf-conntrack-netlink, kmod-nf-ipvs, kmod-nf-nat, kmod-veth
+Source: /home/lede/feeds/packages/utils/dockerd
+SourceName: dockerd
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+Require-User: docker:docker
+SourceDateEpoch: 1649690498
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: x86_64
+Installed-Size: 16416308
+Filename: dockerd_20.10.14-2_x86_64.ipk
+Size: 16367094
+SHA256sum: 7c994f5350cdeecdbcb494c705c723150d92c83dc2d5ddad1d6f9088395504c8
+Description:  The Docker CE Engine.
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Source: /home/lede/feeds/packages/net/etherwake
+SourceName: etherwake
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: x86_64
+Installed-Size: 5075
+Filename: etherwake_1.09-5_x86_64.ipk
+Size: 5985
+SHA256sum: fb9d3719e9af70dc8cf5f448098e9f0fcb348974cb4daf82f2466f48b5bd0b16
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: fuse-utils
+Version: 2.9.9-1
+Depends: libc, libfuse1
+Source: /home/lede/feeds/packages/utils/fuse
+SourceName: fuse-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:fuse_project:fuse
+Architecture: x86_64
+Installed-Size: 14733
+Filename: fuse-utils_2.9.9-1_x86_64.ipk
+Size: 15499
+SHA256sum: bc886e984a17cbdbf9cde0c070c1e778b946f1abe6b0d92c0b6bc1ef873f483c
+Description:  FUSE (Filesystem in UserSpacE)
+ This package contains the FUSE utilities.
+ - fusermount
+ - ulockmgr_server
+
+Package: hd-idle
+Version: 1.05-2
+Depends: libc
+Source: /home/lede/feeds/packages/utils/hd-idle
+SourceName: hd-idle
+License: GPL-2.0
+Section: utils
+SourceDateEpoch: 1646960045
+Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: x86_64
+Installed-Size: 4568
+Filename: hd-idle_1.05-2_x86_64.ipk
+Size: 5402
+SHA256sum: 3b52931bcc4973a332366cfcf57143f4b90e5d0e79c0822e89d88f7c41443bb3
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: htop
+Version: 3.1.2-1
+Depends: libc, libncurses6
+Source: /home/lede/feeds/packages/admin/htop
+SourceName: htop
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: admin
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:htop:htop
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: x86_64
+Installed-Size: 99391
+Filename: htop_3.1.2-1_x86_64.ipk
+Size: 100410
+SHA256sum: 9ee89622567b4881420b5b848ca2350f8fb99662ac6e5445a28edf1393ad5c76
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: iperf3
+Version: 3.11-1
+Depends: libc
+Source: /home/lede/feeds/packages/net/iperf3
+SourceName: iperf3
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 51444
+Filename: iperf3_3.11-1_x86_64.ipk
+Size: 52334
+SHA256sum: 27304d58ee877c656488efab319b54d29b98ca564228af6c9a766e639bf4d47a
+Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
+ performance, allowing the tuning of various parameters and
+ characteristics.
+
+Package: ipt2socks
+Version: 1.1.3-2
+Depends: libc, libpthread, libuv1
+Source: /home/lede/feeds/packages/net/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1646960045
+Architecture: x86_64
+Installed-Size: 35901
+Filename: ipt2socks_1.1.3-2_x86_64.ipk
+Size: 36738
+SHA256sum: 3d408ecbb15c37ffe86916da34a3b695850d4dc16c375a5d2e708b95e70e652b
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: iputils-arping
+Version: 20211215-1
+Depends: libc
+Source: /home/lede/feeds/packages/net/iputils
+SourceName: iputils-arping
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:iputils_project:iputils
+Maintainer: Noah Meyerhans <frodo@morgul.net>
+Architecture: x86_64
+Installed-Size: 8218
+Filename: iputils-arping_20211215-1_x86_64.ipk
+Size: 9027
+SHA256sum: 110ca5f2486a388a8fc78a2a689552a2365df7a21b52a86c78cbc803a45a022e
+Description:  Send ARP REQUEST packets to a neighbor host
+
+Package: jq
+Version: 1.6-2
+Depends: libc
+Source: /home/lede/feeds/packages/utils/jq
+SourceName: jq
+License: BSD
+Section: utils
+SourceDateEpoch: 1648726933
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: x86_64
+Installed-Size: 107584
+Filename: jq_1.6-2_x86_64.ipk
+Size: 108420
+SHA256sum: ed0aec49f302c7034c71264afb6734e25151a0ab418ae0d62dc7c6c6fc3f73f5
+Description:  Lightweight and flexible command-line JSON processor.
+
+Package: kcptun-client
+Version: 20210922-1
+Depends: libc, kcptun-config
+Source: /home/lede/feeds/packages/net/kcptun
+SourceName: kcptun-client
+License: MIT
+LicenseFiles: LICENSE.md
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Dengfeng Liu <liudf0716@gmail.com>, Chao Liu <expiron18@gmail.com>
+Architecture: x86_64
+Installed-Size: 2566015
+Filename: kcptun-client_20210922-1_x86_64.ipk
+Size: 2559667
+SHA256sum: ae7ae57b64683c149950a58102cd72d7d9344778a7ad1ccc7bd26f6c324e6fad
+Description:  kcptun is a Stable & Secure Tunnel Based On KCP with N:M Multiplexing.
+ This package only contains kcptun client.
+
+Package: kcptun-config
+Version: 20210922-1
+Depends: libc
+Source: /home/lede/feeds/packages/net/kcptun
+SourceName: kcptun-config
+License: MIT
+LicenseFiles: LICENSE.md
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Dengfeng Liu <liudf0716@gmail.com>, Chao Liu <expiron18@gmail.com>
+Architecture: x86_64
+Installed-Size: 1957
+Filename: kcptun-config_20210922-1_x86_64.ipk
+Size: 2796
+SHA256sum: ac6361117ede7f7feb65314df34540955a7bebe43409b00acdaed260a0a1fa6a
+Description:  Kcptun Config Scripts
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+Source: /home/lede/feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: x86_64
+Installed-Size: 6554
+Filename: libattr_2.5.1-1_x86_64.ipk
+Size: 7376
+SHA256sum: e9c484baf5f91a78009b48676379de0cab5bdc802452bb9603a687795c92890d
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libavahi-client
+Version: 0.8-7
+Depends: libc, avahi-dbus-daemon
+Source: /home/lede/feeds/packages/libs/avahi
+SourceName: libavahi-client
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: x86_64
+Installed-Size: 18917
+Filename: libavahi-client_0.8-7_x86_64.ipk
+Size: 20108
+SHA256sum: c604c85fffa3c45d369d9d71b80a213ab5c2a0066b919de00d7bd299ecbc286d
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.8-7
+Depends: libc, dbus
+Provides: libavahi
+Source: /home/lede/feeds/packages/libs/avahi
+SourceName: libavahi-dbus-support
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: x86_64
+Installed-Size: 78549
+Filename: libavahi-dbus-support_0.8-7_x86_64.ipk
+Size: 79953
+SHA256sum: e41035a09bdf5bac8c1ec4455dd1934bd5260e404231cbddcff5c34407ebdab8
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libcares
+Version: 1.17.1-1
+Depends: libc
+Source: /home/lede/feeds/packages/libs/c-ares
+SourceName: libcares
+License: MIT
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: x86_64
+Installed-Size: 35424
+Filename: libcares_1.17.1-1_x86_64.ipk
+Size: 36368
+SHA256sum: 460460c360006136b2f616cae28db7f1bb010dc25f6f0db58a2115b35ce0c838
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libcurl4
+Version: 7.82.0-2
+Depends: libc, libopenssl1.1, ca-bundle
+Provides: libcurl
+Source: /home/lede/feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1647623571
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: x86_64
+Installed-Size: 161750
+Filename: libcurl4_7.82.0-2_x86_64.ipk
+Size: 162642
+SHA256sum: 37e7d4bc4f24ad124cf95a6b2ea7708b8c5794b1d4b1d0e82bcf0e8015442879
+Description:  A client-side URL transfer library
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Source: /home/lede/feeds/packages/libs/libdaemon
+SourceName: libdaemon
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: x86_64
+Installed-Size: 8809
+Filename: libdaemon_0.14-5_x86_64.ipk
+Size: 9860
+SHA256sum: c44c4c746636c088e1bb6c4b2c6f81f345c4ef88a1385b065845be4da5b98010
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdb47
+Version: 4.7.25.4.NC-7
+Depends: libc
+Provides: libdb47-full
+Source: /home/lede/feeds/packages/libs/db47
+SourceName: libdb47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: x86_64
+Installed-Size: 525023
+Filename: libdb47_4.7.25.4.NC-7_x86_64.ipk
+Size: 525374
+SHA256sum: 86a197fee67a8d059488b308a6817063065a78f1737d4b52e249a45f67df88f8
+Description:  Berkeley DB library (4.7).
+
+Package: libdbus
+Version: 1.13.18-1
+Depends: libc, libpthread
+Source: /home/lede/feeds/packages/utils/dbus
+SourceName: libdbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: x86_64
+Installed-Size: 118780
+Filename: libdbus_1.13.18-1_x86_64.ipk
+Size: 119507
+SHA256sum: 688e690324c10eb2190afd19fe185b35a4f64b195c14fca5c124ae5ed9bb544d
+Description:  Simple interprocess messaging system (library)
+
+Package: libdevmapper
+Version: 2.03.14-1
+Depends: libc, kmod-dm, libpthread, libuuid1, librt, libblkid1
+Source: /home/lede/feeds/packages/utils/lvm2
+SourceName: libdevmapper
+License: GPL-2.0 LGPL-2.1
+LicenseFiles: COPYING COPYING.lib
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:heinz_mauelshagen:lvm2
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: x86_64
+Installed-Size: 148526
+Filename: libdevmapper_2.03.14-1_x86_64.ipk
+Size: 149448
+SHA256sum: 818573a4cec7ee0decc92b61aedfc5d558ce396b552e69f8630311a51e4e610c
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
+
+Package: libev
+Version: 4.33-1
+Depends: libc
+Source: /home/lede/feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: x86_64
+Installed-Size: 23122
+Filename: libev_4.33-1_x86_64.ipk
+Size: 23919
+SHA256sum: 0c88adc50535d295c630154d407eab578c3685d7aafa2d98756295b3c1520a15
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libevdev
+Version: 1.12.0-1
+Depends: libc
+Source: /home/lede/feeds/packages/libs/libevdev
+SourceName: libevdev
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: x86_64
+Installed-Size: 31344
+Filename: libevdev_1.12.0-1_x86_64.ipk
+Size: 31860
+SHA256sum: 2097ee41cc46b3709ca974adc4bed3f66725d635e859b991fa65485a89f1ddf2
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libexpat
+Version: 2.4.6-1
+Depends: libc
+Source: /home/lede/feeds/packages/libs/expat
+SourceName: libexpat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:libexpat:expat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: x86_64
+Installed-Size: 47230
+Filename: libexpat_2.4.6-1_x86_64.ipk
+Size: 48118
+SHA256sum: b8bed1cf1343cbe68de58d642aaa9370f35b9c68c903ecf463b4d2fdfa63f3ee
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.3-2
+Depends: libc
+Source: /home/lede/feeds/packages/libs/libffi
+SourceName: libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: x86_64
+Installed-Size: 14823
+Filename: libffi_3.3-2_x86_64.ipk
+Size: 15846
+SHA256sum: 070a2ce6b99eeb414004fea731d38f0981ef6f379fd38a46f6d75718aa316e43
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libfuse1
+Version: 2.9.9-1
+Depends: libc, kmod-fuse, libpthread
+Provides: libfuse
+Source: /home/lede/feeds/packages/utils/fuse
+SourceName: libfuse
+License: LGPL-2.1-only
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1646960045
+ABIVersion: 1
+CPE-ID: cpe:/a:fuse_project:fuse
+Architecture: x86_64
+Installed-Size: 68074
+Filename: libfuse1_2.9.9-1_x86_64.ipk
+Size: 68846
+SHA256sum: caddd801c3c2946b249893865c034fd00d29ac8dd9df6f4178d0334868b68a1c
+Description:  FUSE (Filesystem in UserSpacE)
+ This package contains the FUSE shared libraries, needed by other programs.
+ - libfuse
+ - libulockmgr
+
+Package: libgd
+Version: 2.3.2-1
+Depends: libc, libjpeg, libpng, libwebp
+Source: /home/lede/feeds/packages/libs/libgd
+SourceName: libgd
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:libgd:libgd
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 91349
+Filename: libgd_2.3.2-1_x86_64.ipk
+Size: 91802
+SHA256sum: 864af2d9f9a3309dc6378e40c4e0e0bbc3b0eb7b21a3fb580a512f9b5daf5803
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
+Package: libgdbm
+Version: 1.19-1
+Depends: libc
+Source: /home/lede/feeds/packages/libs/gdbm
+SourceName: libgdbm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: x86_64
+Installed-Size: 21118
+Filename: libgdbm_1.19-1_x86_64.ipk
+Size: 21915
+SHA256sum: c5db9b0751585ce7c8ef7a5f87811818636beb526cfdf7775d186a25cff08106
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libgnutls
+Version: 3.7.4-1
+Depends: libc, libnettle8, libgmp10, libatomic1
+Source: /home/lede/feeds/packages/libs/gnutls
+SourceName: libgnutls
+License: LGPL-2.1-or-later
+Section: libs
+SourceDateEpoch: 1648707851
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: x86_64
+Installed-Size: 926883
+Filename: libgnutls_3.7.4-1_x86_64.ipk
+Size: 926547
+SHA256sum: a1ab8bdad06911bb112b975cc9e6c8f45bd232c5f21d6ceb3dc82852480541b4
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libjpeg-turbo
+Version: 2.1.0-1
+Depends: libc
+Provides: libjpeg
+Source: /home/lede/feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: x86_64
+Installed-Size: 108258
+Filename: libjpeg-turbo_2.1.0-1_x86_64.ipk
+Size: 108399
+SHA256sum: 0afe3217c584f4c80c1f5bf50e8fe8d7a2980640cefacf2be8282c3ada8abc90
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
+
+Package: libkmod
+Version: 27-2
+Depends: libc, zlib
+Source: /home/lede/feeds/packages/utils/kmod
+SourceName: libkmod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: x86_64
+Installed-Size: 35364
+Filename: libkmod_27-2_x86_64.ipk
+Size: 36222
+SHA256sum: 725c91ffb5f2041b886738ceeb0e29502e7dcf4a106bb79777002730c1144fd1
+Description:  Linux kernel module handling (library)
+
+Package: liblzma
+Version: 5.2.5-3
+Depends: libc, libpthread
+Source: /home/lede/feeds/packages/utils/xz
+SourceName: liblzma
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 52597
+Filename: liblzma_5.2.5-3_x86_64.ipk
+Size: 53471
+SHA256sum: d5d7eeda339e96344ef007177c47911b95e3e990461885a6be0c7ab2cd9326a0
+Description:  liblzma library from XZ Utils
+
+Package: liblzo2
+Version: 2.10-4
+Depends: libc
+Provides: liblzo
+Source: /home/lede/feeds/packages/libs/lzo
+SourceName: liblzo
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+ABIVersion: 2
+Architecture: x86_64
+Installed-Size: 37231
+Filename: liblzo2_2.10-4_x86_64.ipk
+Size: 38122
+SHA256sum: 0a50fd2a9e542dfed18b1b82b346e1a156755a45518755567d6501716865543a
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libmaxminddb
+Version: 1.6.0-1
+Depends: libc
+Source: /home/lede/feeds/packages/libs/libmaxminddb
+SourceName: libmaxminddb
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1650046007
+Maintainer: Jan Pavlinec <jan.pavlinec1@gmail.com>
+Architecture: x86_64
+Installed-Size: 13487
+Filename: libmaxminddb_1.6.0-1_x86_64.ipk
+Size: 14281
+SHA256sum: 9945da302315a0509b4320a19284dcf3fe794e0d8a83d8075950743345ac765b
+Description:  The libmaxminddb library provides functions for working MaxMind DB files.
+
+Package: libminiupnpc
+Version: 2.2.2-1
+Depends: libc
+Source: /home/lede/feeds/packages/net/miniupnpc
+SourceName: libminiupnpc
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:miniupnp_project:miniupnp
+Architecture: x86_64
+Installed-Size: 22002
+Filename: libminiupnpc_2.2.2-1_x86_64.ipk
+Size: 22752
+SHA256sum: 66a5216b2572bc2a6514137c5f4967bb3c218823b2670bb16be48d74d5667c48
+Description:  Lightweight UPnP library
+
+Package: libnatpmp1
+Version: 20150609-3
+Depends: libc
+Provides: libnatpmp
+Source: /home/lede/feeds/packages/libs/libnatpmp
+SourceName: libnatpmp
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1646960045
+ABIVersion: 1
+Architecture: x86_64
+Installed-Size: 3322
+Filename: libnatpmp1_20150609-3_x86_64.ipk
+Size: 4244
+SHA256sum: 73a5354cb7e42cd0389e2aea870fa1b04f2784f14b2bbdaaaaefef0a7042dc10
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libnetwork
+Version: 2021-05-25-64b7a457-1
+Depends: libc
+Source: /home/lede/feeds/packages/utils/libnetwork
+SourceName: libnetwork
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1646960045
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: x86_64
+Installed-Size: 6865784
+Filename: libnetwork_2021-05-25-64b7a457-1_x86_64.ipk
+Size: 6846145
+SHA256sum: 2fcc1278810db33125a3ec744024eeeb9c52cbbd13ae311f33a3fbde8924d737
+Description:  Libnetwork provides a native Go implementation for connecting containers.
+ The goal of libnetwork is to deliver a robust Container Network Model that provides a consistent programming interface and the required network abstractions for applications.
+
+Package: libnghttp2-14
+Version: 1.43.0-1
+Depends: libc
+Provides: libnghttp2
+Source: /home/lede/feeds/packages/libs/nghttp2
+SourceName: libnghttp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+ABIVersion: -14
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: x86_64
+Installed-Size: 67685
+Filename: libnghttp2-14_1.43.0-1_x86_64.ipk
+Size: 67309
+SHA256sum: a81aa66d06440765a03fdef6e7e779d9b5a63065824314cbb7ee1229ba322423
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libpci
+Version: 3.7.0-2
+Depends: libc
+Source: /home/lede/feeds/packages/utils/pciutils
+SourceName: libpci
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: x86_64
+Installed-Size: 19409
+Filename: libpci_3.7.0-2_x86_64.ipk
+Size: 20177
+SHA256sum: b6e9f809f35c0103bef69ba186b82bac4387d5e5a94ed14dc3a0cfa083768237
+Description:  Linux PCI Libraries
+
+Package: libpng
+Version: 1.6.37-11
+Depends: libc, zlib
+Source: /home/lede/feeds/packages/libs/libpng
+SourceName: libpng
+License: Libpng GPL-2.0-or-later BSD-3-Clause
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:libpng:libpng
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 93008
+Filename: libpng_1.6.37-11_x86_64.ipk
+Size: 93879
+SHA256sum: d94778d9ac0e8a16d11871e8e37068f9a1182b431e88301d243f0a75eec57c72
+Description:  A PNG format files handling library
+
+Package: libpython3-3.9
+Version: 3.9.12-1
+Depends: libc, libpthread, zlib
+Provides: libpython3
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: libpython3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+ABIVersion: -3.9
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 1157173
+Filename: libpython3-3.9_3.9.12-1_x86_64.ipk
+Size: 1154649
+SHA256sum: c526f8988f4bc4b65346c16d75efc8d81ed055def946293e70feeaaa44fb5384
+Description:  This package contains only core Python library.
+
+Package: libseccomp
+Version: 2.5.1-1
+Depends: libc
+Source: /home/lede/feeds/packages/libs/libseccomp
+SourceName: libseccomp
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:libseccomp_project:libseccomp
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: x86_64
+Installed-Size: 44381
+Filename: libseccomp_2.5.1-1_x86_64.ipk
+Size: 45098
+SHA256sum: c4627d88f14e6daf7ae099abad88ae9e60265fa17b2594e9f06cb0cc89279ba6
+Description:  This package contains the seccomp library.
+
+Package: libsensors5
+Version: 3.6.0-1
+Depends: libc, sysfsutils
+Provides: libsensors
+Source: /home/lede/feeds/packages/utils/lm-sensors
+SourceName: libsensors
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+SourceDateEpoch: 1646960045
+ABIVersion: 5
+CPE-ID: cpe:/a:lm_sensors:lm_sensors
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 19786
+Filename: libsensors5_3.6.0-1_x86_64.ipk
+Size: 20486
+SHA256sum: f4b3bd1bca19e7951e66854b32f13d6bd1d0d8867bf6310f1cf9b37a555191b9
+Description:  lm-sensors libraries
+
+Package: libsodium
+Version: 1.0.18-3
+Depends: libc
+Source: /home/lede/feeds/packages/libs/libsodium
+SourceName: libsodium
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
+Architecture: x86_64
+Installed-Size: 145706
+Filename: libsodium_1.0.18-3_x86_64.ipk
+Size: 146954
+SHA256sum: c3cf2a8f24ef2a5565b3ae02460040061ee8ddbb303e2d8e2948787270f28ee6
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3-0
+Version: 3370000-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+Source: /home/lede/feeds/packages/libs/sqlite3
+SourceName: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+SourceDateEpoch: 1646960045
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: x86_64
+Installed-Size: 509968
+Filename: libsqlite3-0_3370000-1_x86_64.ipk
+Size: 510834
+SHA256sum: 2b20af22f57a425da8d39ea5f9f3ac93e8934a52fa5ba1226c6679fa6f1562d8
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtasn1
+Version: 4.16.0-1
+Depends: libc
+Source: /home/lede/feeds/packages/libs/libtasn1
+SourceName: libtasn1
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:gnu:libtasn1
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: x86_64
+Installed-Size: 31434
+Filename: libtasn1_4.16.0-1_x86_64.ipk
+Size: 32294
+SHA256sum: 4d5e55c5e7e4ff820fc89562348ff8898e2449ed9a83decf7f666b0aaee1ebfb
+Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
+ Distinguish Encoding Rules (DER) manipulation.
+
+Package: libtirpc
+Version: 1.3.1-1
+Depends: libc, libpthread
+Source: /home/lede/feeds/packages/libs/libtirpc
+SourceName: libtirpc
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: x86_64
+Installed-Size: 62806
+Filename: libtirpc_1.3.1-1_x86_64.ipk
+Size: 63663
+SHA256sum: 8ffb2f85884e762a3af2f77d33b3aa8f8fc633f9f635650406d945c817002710
+Description:  Library TI RPC for RPC bindings
+
+Package: libudev-zero
+Version: 1.0.1-1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+Source: /home/lede/feeds/packages/libs/libudev-zero
+SourceName: libudev-zero
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1648180138
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: x86_64
+Installed-Size: 9694
+Filename: libudev-zero_1.0.1-1_x86_64.ipk
+Size: 10466
+SHA256sum: c4d5331e04619ef86dd5e8ef9f3cea2ec3ea052a8922f9ca082a0081b6e96362
+Description:  Drop-in replacement for libudev
+
+Package: libudns
+Version: 0.4-1
+Depends: libc
+Source: /home/lede/feeds/packages/libs/udns
+SourceName: libudns
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 19013
+Filename: libudns_0.4-1_x86_64.ipk
+Size: 19822
+SHA256sum: 1ae7ad5db94c10ae04c2d0c69b7565fc26d2d0640ab41fdc635d9680c489a0dc
+Description:  UDNS is a stub DNS resolver library with ability to perform both syncronous
+ and asyncronous DNS queries.
+
+Package: liburing
+Version: 2.0-1
+Depends: libc
+Source: /home/lede/feeds/packages/libs/liburing
+SourceName: liburing
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Christian Lachner <gladiac@gmail.com>
+Architecture: x86_64
+Installed-Size: 4344
+Filename: liburing_2.0-1_x86_64.ipk
+Size: 5249
+SHA256sum: 89e6dc19ed7f76cfd0c1c2813ab241fc90dac28c10d957feaff55dca9335d39b
+Description:  liburing provides helpers to setup and teardown io_uring instances,
+ and also a simplified interface for applications that don't need
+ (or want) to deal with the full kernel side implementation.
+ For more info on io_uring, please see: https://kernel.dk/io_uring.pdf
+
+Package: libuv1
+Version: 1.44.1-1
+Depends: libc, libpthread, librt
+Provides: libuv
+Source: /home/lede/feeds/packages/libs/libuv
+SourceName: libuv
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1648708851
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv_project:libuv
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: x86_64
+Installed-Size: 63836
+Filename: libuv1_1.44.1-1_x86_64.ipk
+Size: 64797
+SHA256sum: 4e5243026e4dd7a8c866706981222f86e6881dd7c0b28dcdbcd85d570e6d2eb7
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libwebp
+Version: 1.2.1-1
+Depends: libc
+Source: /home/lede/feeds/packages/libs/libwebp
+SourceName: libwebp
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: x86_64
+Installed-Size: 273833
+Filename: libwebp_1.2.1-1_x86_64.ipk
+Size: 274722
+SHA256sum: f20d78b7466e605846fa5f3bca646bd7cffe3ca8cfef385c58cb68f540ca4ade
+Description:  The libwebp package contains a library for the WebP format.
+
+Package: libwebsockets-full
+Version: 4.1.6-1
+Depends: libc, zlib, libcap, libopenssl1.1, libuv1
+Provides: libwebsockets
+Source: /home/lede/feeds/packages/libs/libwebsockets
+SourceName: libwebsockets-full
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1646960045
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: x86_64
+Installed-Size: 160577
+Filename: libwebsockets-full_4.1.6-1_x86_64.ipk
+Size: 161266
+SHA256sum: 0cd56653c18e93abacb6ff09459d94dd9904665772e9fc6618627ef6c18ee191
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
+
+Package: libzstd
+Version: 1.5.2-1
+Depends: libc
+Source: /home/lede/feeds/packages/utils/zstd
+SourceName: libzstd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1646960045
+Architecture: x86_64
+Installed-Size: 300967
+Filename: libzstd_1.5.2-1_x86_64.ipk
+Size: 301659
+SHA256sum: cc1fd9bf0b498094cba2037cb631e610efb15e6814f95d3379c190e138b62a6e
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides libzstd library.
+
+Package: lm-sensors
+Version: 3.6.0-1
+Depends: libc, sysfsutils, libsensors5
+Source: /home/lede/feeds/packages/utils/lm-sensors
+SourceName: lm-sensors
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: utils
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:lm_sensors:lm_sensors
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 8210
+Filename: lm-sensors_3.6.0-1_x86_64.ipk
+Size: 9041
+SHA256sum: 57e175d8d09b89a8451a19336ea096f42326107af74b0446556027455233635a
+Description:  utility to read hardware sensor data
+
+Package: lua-cjson
+Version: 2.1.0-2
+Depends: libc, lua
+Source: /home/lede/feeds/packages/lang/lua-cjson
+SourceName: lua-cjson
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1646960045
+Maintainer: Dirk Chang <dirk@kooiot.com>
+Architecture: x86_64
+Installed-Size: 11853
+Filename: lua-cjson_2.1.0-2_x86_64.ipk
+Size: 12651
+SHA256sum: 5f6110d9672b2bd56a1d532f1b6e749530e7f566592dee3ac211b17af2f0db5d
+Description:  Lua CJSON is a fast JSON encoding/parsing module for Lua.
+
+Package: luasocket
+Version: 2019-04-21-733af884-1
+Depends: libc, lua
+Source: /home/lede/feeds/packages/lang/luasocket
+SourceName: luasocket
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1646960045
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: x86_64
+Installed-Size: 59729
+Filename: luasocket_2019-04-21-733af884-1_x86_64.ipk
+Size: 60632
+SHA256sum: d28f5e4fbc287704a2d1919a3b062ccb9942eab316097a9d76fd806483f20d39
+Description:  LuaSocket is the most comprehensive networking support
+ library for the Lua language. It provides easy access to
+ TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+Source: /home/lede/feeds/packages/net/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: lean
+Architecture: x86_64
+Installed-Size: 5449
+Filename: microsocks_1.0.3-1_x86_64.ipk
+Size: 6274
+SHA256sum: 32e12685308b4cecded15da31628d617dd782f781f3db655c7ef69e262c3c62b
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: miniupnpd
+Version: 2.0.20170421-3
+Depends: libc, iptables, libip4tc2, libuuid1
+Source: /home/lede/feeds/packages/net/miniupnpd
+SourceName: miniupnpd
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: x86_64
+Installed-Size: 56886
+Filename: miniupnpd_2.0.20170421-3_x86_64.ipk
+Size: 57865
+SHA256sum: 8719ddac87baa37d56c71bd5fc47cabf76afd4e3cfed613f4cab757bc8f5f5a3
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: mwan3
+Version: 2.8.8-2
+Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+Source: /home/lede/feeds/packages/net/mwan3
+SourceName: mwan3
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 13114
+Filename: mwan3_2.8.8-2_all.ipk
+Size: 14135
+SHA256sum: e95c0ec28de37de1a8d645ececb70e43a5a743f60eefeb4fe5e101b1d5244df7
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: netdata
+Version: 1.33.1-3
+Depends: libc, zlib, libuuid1, libuv1, libmnl0, libjson-c5
+Source: /home/lede/feeds/packages/admin/netdata
+SourceName: netdata
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: admin
+SourceDateEpoch: 1647358260
+CPE-ID: cpe:/a:my-netdata:netdata
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Daniel Engberg <daniel.engberg.lists@pyret.net>
+Architecture: x86_64
+Installed-Size: 7903142
+Filename: netdata_1.33.1-3_x86_64.ipk
+Size: 7873746
+SHA256sum: 2f3ebe7fe8dca20039bca61ff2dac67f2fe8c55d3400cd8dc3d3f2c4b0fe58ab
+Description:  netdata is a highly optimized Linux daemon providing real-time performance
+ monitoring for Linux systems, applications and SNMP devices over the web.
+ 
+ If you want to use Python plugins install python3, python3-yaml and
+ python3-urllib3
+
+Package: nlbwmon
+Version: 2021-09-01-d82c910c-1
+Depends: libc, libubox20210516, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+Source: /home/lede/feeds/packages/net/nlbwmon
+SourceName: nlbwmon
+License: ISC
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1649252625
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20359
+Filename: nlbwmon_2021-09-01-d82c910c-1_x86_64.ipk
+Size: 21247
+SHA256sum: ce627f6caf44e581ad2146d23532c2c480f1d0fbf9c1b597e152c577c0fc82c0
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: node
+Version: v14.18.3-1
+Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libatomic1
+Source: /home/lede/feeds/packages/lang/node
+SourceName: node
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1649145744
+CPE-ID: cpe:/a:nodejs:node.js
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: x86_64
+Installed-Size: 8067948
+Filename: node_v14.18.3-1_x86_64.ipk
+Size: 8047014
+SHA256sum: 0235bbff5b1abf2ebcd874d8558095c7277ca99020ae6960794b64f03a707053
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ 
+ *** The following preparations must be made on the host side. ***
+ 1. gcc 6.3 or higher is required.
+ 2. To build a 32-bit target, gcc-multilib, g++-multilib are required.
+ 3. Requires libatomic package. (If necessary, install the 32-bit library at the same time.)
+ ex) sudo apt-get install gcc-multilib g++-multilib
+
+Package: openssh-sftp-client
+Version: 9.0p1-1
+Depends: libc, libopenssl1.1, zlib
+Source: /home/lede/feeds/packages/net/openssh
+SourceName: openssh-sftp-client
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1650046069
+CPE-ID: cpe:/a:openssh:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: x86_64
+Installed-Size: 83635
+Filename: openssh-sftp-client_9.0p1-1_x86_64.ipk
+Size: 84485
+SHA256sum: c45c1570501d5b566063092bc4828bae5af0170abdac2e63724c32c5b6449db8
+Description:  OpenSSH SFTP client.
+
+Package: openssh-sftp-server
+Version: 9.0p1-1
+Depends: libc, libopenssl1.1, zlib
+Source: /home/lede/feeds/packages/net/openssh
+SourceName: openssh-sftp-server
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1650046069
+CPE-ID: cpe:/a:openssh:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: x86_64
+Installed-Size: 58556
+Filename: openssh-sftp-server_9.0p1-1_x86_64.ipk
+Size: 59491
+SHA256sum: 5a3406064a64d108c1d4005245943b22f06300ebf28349ca58c9a6bacad21dc2
+Description:  OpenSSH SFTP server.
+
+Package: parted
+Version: 3.3-1
+Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
+Source: /home/lede/feeds/packages/utils/parted
+SourceName: parted
+Section: utils
+SourceDateEpoch: 1646960045
+Architecture: x86_64
+Installed-Size: 591107
+Filename: parted_3.3-1_x86_64.ipk
+Size: 591876
+SHA256sum: 802ccb3a2d714b695856a98f847cfc9964dde6da372e215ae8f9e14965a9369d
+Description:  parted Partition editor
+ http://www.gnu.org/software/parted/index.shtml
+
+Package: pciids
+Version: 0.347-1
+Depends: libc
+Source: /home/lede/feeds/packages/utils/hwdata
+SourceName: pciids
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1646960045
+Architecture: x86_64
+Installed-Size: 297074
+Filename: pciids_0.347-1_x86_64.ipk
+Size: 297255
+SHA256sum: 118a3f320c9300734bbe117b0a44938bc6e9366c66747cfa665c4594ffdd09f9
+Description:  PCI ID list
+
+Package: pciutils
+Version: 3.7.0-2
+Depends: libc, libkmod, libpci, pciids
+Source: /home/lede/feeds/packages/utils/pciutils
+SourceName: pciutils
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: x86_64
+Installed-Size: 42925
+Filename: pciutils_3.7.0-2_x86_64.ipk
+Size: 43813
+SHA256sum: 1555996f399580b5647938d45becaa5393f74a619b1b97b68f4d78a43ae27127
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Source: /home/lede/feeds/packages/net/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1647186213
+Architecture: x86_64
+Installed-Size: 90980
+Filename: pdnsd-alt_1.2.9b-par-3_x86_64.ipk
+Size: 92026
+SHA256sum: 4dc6e7d29b4bcc19948e484a2c80e5a527dcff72adbd0749c0c565644a7f547d
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: proto-bonding
+Version: 2021-04-09-2
+Depends: libc, kmod-bonding
+Source: /home/lede/feeds/packages/net/bonding
+SourceName: proto-bonding
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Helge Mader <ma@dev.tdt.de>
+Architecture: all
+Installed-Size: 1868
+Filename: proto-bonding_2021-04-09-2_all.ipk
+Size: 2672
+SHA256sum: 4c49df04be76a6b185aada6bfc8b3d31d9eaa69016580d91522382660f389f95
+Description:  This package contains the channel bonding proto handler for netifd
+
+Package: python3-asyncio
+Version: 3.9.12-1
+Depends: libc, python3-light
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-asyncio
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 144564
+Filename: python3-asyncio_3.9.12-1_x86_64.ipk
+Size: 145556
+SHA256sum: 28ff5cc4489abc64cb90b007fe1ede320056b96de5f61de14b45e2abe61b159e
+Description:  Python 3.9 asyncio module
+
+Package: python3-base
+Version: 3.9.12-1
+Depends: libc, libpthread, zlib, libpython3-3.9
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-base
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 136794
+Filename: python3-base_3.9.12-1_x86_64.ipk
+Size: 136932
+SHA256sum: 3db29f0cc6addeef27ebf32372157338f2d6ee37fed4e88d5c7e302db51ed5f3
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python3-cgi
+Version: 3.9.12-1
+Depends: libc, python3-light, python3-email
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-cgi
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 12082
+Filename: python3-cgi_3.9.12-1_x86_64.ipk
+Size: 12962
+SHA256sum: a550d3cac251c5f2cd664e460b24308c6ad79a3f9d11276227b68ece59fe9b5d
+Description:  Python 3.9 cgi module
+
+Package: python3-cgitb
+Version: 3.9.12-1
+Depends: libc, python3-light, python3-cgi, python3-pydoc
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-cgitb
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 5518
+Filename: python3-cgitb_3.9.12-1_x86_64.ipk
+Size: 6379
+SHA256sum: 238faa7466a4e45e5075217ecac5a8a90f98240fab18a7812abd4b8c33fd976c
+Description:  Python 3.9 cgitb module
+
+Package: python3-codecs
+Version: 3.9.12-1
+Depends: libc, python3-light
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-codecs
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 770053
+Filename: python3-codecs_3.9.12-1_x86_64.ipk
+Size: 743941
+SHA256sum: 246fd6ce217761833b8436632e88ef7fd8160c91fc9ed53b18d20603f3b91ff7
+Description:  Python 3.9 codecs + unicode support
+
+Package: python3-ctypes
+Version: 3.9.12-1
+Depends: libc, python3-light
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-ctypes
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 74772
+Filename: python3-ctypes_3.9.12-1_x86_64.ipk
+Size: 75634
+SHA256sum: 9c4b352ee1a80346559244ba025d67ffc21b4219c5592a501567a3ef8931bc97
+Description:  Python 3.9 ctypes module
+
+Package: python3-dbm
+Version: 3.9.12-1
+Depends: libc, python3-light, libdb47
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-dbm
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 11211
+Filename: python3-dbm_3.9.12-1_x86_64.ipk
+Size: 12070
+SHA256sum: e8352a82252fc860a0a0fefea14110e65cfca77c68b9bd476ba78d30a8924e62
+Description:  Python 3.9 dbm module
+
+Package: python3-decimal
+Version: 3.9.12-1
+Depends: libc, python3-light
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-decimal
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 84319
+Filename: python3-decimal_3.9.12-1_x86_64.ipk
+Size: 85170
+SHA256sum: 37adc47f292baa747a4f07ea5cda0b5f52228b906098d0c9009e7d45f4c0e86c
+Description:  Python 3.9 decimal module
+
+Package: python3-distutils
+Version: 3.9.12-1
+Depends: libc, python3-light, python3-email
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-distutils
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 175896
+Filename: python3-distutils_3.9.12-1_x86_64.ipk
+Size: 176886
+SHA256sum: c167775af884d5ff6f910d711d2096b05f8e395548db968a4b92b2e939437711
+Description:  Python 3.9 distutils module
+
+Package: python3-email
+Version: 3.9.12-1
+Depends: libc, python3-light
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-email
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 113056
+Filename: python3-email_3.9.12-1_x86_64.ipk
+Size: 114059
+SHA256sum: 9431a4d1144871c0b66d40b929e6f13ae062d4be89943324e4edba8bf0846390
+Description:  Python 3.9 email module
+
+Package: python3-gdbm
+Version: 3.9.12-1
+Depends: libc, python3-light, libgdbm
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-gdbm
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 7347
+Filename: python3-gdbm_3.9.12-1_x86_64.ipk
+Size: 8233
+SHA256sum: 9f64500f46bcd41fefae503c50f8862d682473cf53c349ae6ea6dbc49e7f409e
+Description:  Python 3.9 gdbm module
+
+Package: python3-light
+Version: 3.9.12-1
+Depends: libc, python3-base, libffi, libbz2-1.0, libuuid1
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-light
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 1912266
+Filename: python3-light_3.9.12-1_x86_64.ipk
+Size: 1912324
+SHA256sum: 90327ec9465c9461adee0cb13e31d94ef6b3e4941a7e264e7d4f694806139851
+Description:  This package is essentially the python3-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python3-logging
+Version: 3.9.12-1
+Depends: libc, python3-light
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-logging
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 52299
+Filename: python3-logging_3.9.12-1_x86_64.ipk
+Size: 53270
+SHA256sum: c1dd179398bee98a8d103d7efbfb0ca3983192534915b444e616c0a1c9597f93
+Description:  Python 3.9 logging module
+
+Package: python3-lzma
+Version: 3.9.12-1
+Depends: libc, python3-light, liblzma
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-lzma
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 16439
+Filename: python3-lzma_3.9.12-1_x86_64.ipk
+Size: 17292
+SHA256sum: fcbd729b53cae7b190f3a7c5e345b3b166485bbffce04cbceb5ca74a7c778ab2
+Description:  Python 3.9 lzma module
+
+Package: python3-multiprocessing
+Version: 3.9.12-1
+Depends: libc, python3-light
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-multiprocessing
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 99443
+Filename: python3-multiprocessing_3.9.12-1_x86_64.ipk
+Size: 100435
+SHA256sum: d1677d9f8230c844121dabccd85bde2512d94db587d2ec4f763b296c04b84188
+Description:  Python 3.9 multiprocessing
+
+Package: python3-ncurses
+Version: 3.9.12-1
+Depends: libc, python3-light, libncursesw6
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-ncurses
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 52774
+Filename: python3-ncurses_3.9.12-1_x86_64.ipk
+Size: 53585
+SHA256sum: 62ec4b206e480ace9b35eddf8dee047e57bc042bea5edcb69b8a6d375992d79f
+Description:  Python 3.9 ncurses module
+
+Package: python3-openssl
+Version: 3.9.12-1
+Depends: libc, python3-light, libopenssl1.1, ca-certs
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-openssl
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 73223
+Filename: python3-openssl_3.9.12-1_x86_64.ipk
+Size: 73622
+SHA256sum: 8e1229fdec29a4b49711febd06ebf55681aa0bcb042ef6c209dee2015c566065
+Description:  Python 3.9 SSL module
+
+Package: python3-pkg-resources
+Version: 58.1.0-1
+Depends: libc, python3
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-pkg-resources
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 146511
+Filename: python3-pkg-resources_58.1.0-1_x86_64.ipk
+Size: 147456
+SHA256sum: 80c455df252ad84f4ea1e8a5f8f2c0f8546452a090150f282240cb8676a2a047
+Description:  Python 3.9 pkg_resources module (part of setuptools)
+
+Package: python3-pydoc
+Version: 3.9.12-1
+Depends: libc, python3-light
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-pydoc
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 193684
+Filename: python3-pydoc_3.9.12-1_x86_64.ipk
+Size: 194594
+SHA256sum: 16260b0670add6d3bc94349fccfef3a3e8f255735e556edd710e73704e87db46
+Description:  Python 3.9 pydoc module
+
+Package: python3-readline
+Version: 3.9.12-1
+Depends: libc, python3-light, libreadline8, libncursesw6
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-readline
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 9885
+Filename: python3-readline_3.9.12-1_x86_64.ipk
+Size: 10749
+SHA256sum: a0e6a205f3ad28670e1cd81733d09f17b1704a52a07a8f563c7abb06b336fd8d
+Description:  Python 3.9 readline module
+
+Package: python3-setuptools
+Version: 58.1.0-1
+Depends: libc, python3, python3-pkg-resources
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-setuptools
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 503473
+Filename: python3-setuptools_58.1.0-1_x86_64.ipk
+Size: 504459
+SHA256sum: 468aea0423ee6fea6f009f7eccb4a46cb8347b1c71d92c419d5a393cee90d97a
+Description:  Python 3.9 setuptools module
+
+Package: python3-sqlite3
+Version: 3.9.12-1
+Depends: libc, python3-light, libsqlite3-0
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-sqlite3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 28700
+Filename: python3-sqlite3_3.9.12-1_x86_64.ipk
+Size: 29574
+SHA256sum: 289151aee694bb4a9a17c6ab95cd427b1fc522ae520f19a23ca256340cb10ebb
+Description:  Python 3.9 sqlite3 module
+
+Package: python3-unittest
+Version: 3.9.12-1
+Depends: libc, python3-light
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-unittest
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 77048
+Filename: python3-unittest_3.9.12-1_x86_64.ipk
+Size: 78023
+SHA256sum: 7d17b7cc0766c93e012c94d9d665948761ab4febc490160d4323f894a60d9c60
+Description:  Python 3.9 unittest module
+
+Package: python3-urllib
+Version: 3.9.12-1
+Depends: libc, python3-light, python3-email
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-urllib
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 50933
+Filename: python3-urllib_3.9.12-1_x86_64.ipk
+Size: 51934
+SHA256sum: 75fb776f5a30d06d8bac7b58bf90577177fc99f39514cd84610749d3079af4f1
+Description:  Python 3.9 URL library module
+
+Package: python3-xml
+Version: 3.9.12-1
+Depends: libc, python3-light, python3-urllib
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3-xml
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 215274
+Filename: python3-xml_3.9.12-1_x86_64.ipk
+Size: 215777
+SHA256sum: 97e0a9f42d9ec83304ff4e3c91d40f1021bf7b3f6d5f295b24a550867caa1648
+Description:  Python 3.9 xml libs
+
+Package: python3
+Version: 3.9.12-1
+Depends: libc, python3-light, python3-asyncio, python3-cgi, python3-cgitb, python3-codecs, python3-ctypes, python3-dbm, python3-decimal, python3-distutils, python3-email, python3-gdbm, python3-logging, python3-lzma, python3-multiprocessing, python3-ncurses, python3-openssl, python3-pydoc, python3-readline, python3-sqlite3, python3-unittest, python3-urllib, python3-xml
+Source: /home/lede/feeds/packages/lang/python/python3
+SourceName: python3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1649828287
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 105
+Filename: python3_3.9.12-1_x86_64.ipk
+Size: 1108
+SHA256sum: 1b62d9e2a64ad3f749ba42888a7afd3b05bf76142a97d281183e7974b032ae62
+Description:  This package contains the (almost) full Python install.
+ It's python3-light + all other packages.
+
+Package: rclone-config
+Version: 1.58.0-1
+Depends: libc, rclone
+Source: /home/lede/feeds/packages/net/rclone
+SourceName: rclone-config
+License: MIT
+Section: net
+SourceDateEpoch: 1647840883
+Maintainer: Elon Huang <elonhhuang@gmail.com> Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 1225
+Filename: rclone-config_1.58.0-1_x86_64.ipk
+Size: 2058
+SHA256sum: d9f1efe81235491ba9ff80c266842a1ccb8763a705edea90cb36a91005594270
+Description:  rsync for cloud storage (Config Scripts)
+
+Package: rclone
+Version: 1.58.0-1
+Depends: libc, ca-bundle, fuse-utils
+Source: /home/lede/feeds/packages/net/rclone
+SourceName: rclone
+License: MIT
+Section: net
+Require-User: rclone:rclone
+SourceDateEpoch: 1647840883
+Maintainer: Elon Huang <elonhhuang@gmail.com> Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 13810878
+Filename: rclone_1.58.0-1_x86_64.ipk
+Size: 13760004
+SHA256sum: f6954bb3d3dd3b0481926a66c141a314a1a7725a098c24b4ccb3fc999ac661fc
+Description:  Rclone ("rsync for cloud storage") is a command line program to sync
+ files and directories to and from different cloud storage providers.
+
+Package: runc
+Version: 1.0.3-1
+Depends: libc, libseccomp
+Source: /home/lede/feeds/packages/utils/runc
+SourceName: runc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1649690473
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: x86_64
+Installed-Size: 3489880
+Filename: runc_1.0.3-1_x86_64.ipk
+Size: 3468950
+SHA256sum: d5ff56d372467cf75c424dd08587fab5e604ccc606505b50023aaf27141967f2
+Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: samba4-libs
+Version: 4.14.12-1
+Depends: libc, libtirpc, libreadline8, libpopt0, libcap, zlib, libgnutls, libtasn1, libuuid1, libopenssl1.1, libpthread, liburing, attr, libavahi-client
+Source: /home/lede/feeds/packages/net/samba4
+SourceName: samba4-libs
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:samba:samba
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: x86_64
+Installed-Size: 8200209
+Filename: samba4-libs_4.14.12-1_x86_64.ipk
+Size: 8156840
+SHA256sum: d6f8d23ecad0dd51e2836bb6d1483ada5d89f3eb07f2a5fca704f033ee126022
+Description:  Samba 4.14.12 libs
+
+Package: samba4-server
+Version: 4.14.12-1
+Depends: libc, samba4-libs
+Conflicts: samba36-server
+Source: /home/lede/feeds/packages/net/samba4
+SourceName: samba4-server
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:samba:samba
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: x86_64
+Installed-Size: 242700
+Filename: samba4-server_4.14.12-1_x86_64.ipk
+Size: 243867
+SHA256sum: fde38859c985ceab25fcb50bb473938ad600fcf53554b2299ac1764bbe333ca7
+Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbcacls sharesec)
+ (samba samba-tool ntlm_auth samba-gpupdate samba_dnsupdate samba_kcc samba_spnupdate samba_upgradedns samba_downgrade_db)
+ 
+ This provides the basic fileserver service and is the minimum needed to serve file shares.
+ HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libpcre
+Source: /home/lede/feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 50489
+Filename: shadowsocks-libev-ss-local_3.3.5-1_x86_64.ipk
+Size: 51367
+SHA256sum: dae5448f710835158c2ee79f11e995ff1bd9cf9b636b0474572ab51863769c72
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium
+Source: /home/lede/feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 45173
+Filename: shadowsocks-libev-ss-redir_3.3.5-1_x86_64.ipk
+Size: 46014
+SHA256sum: b7dadb467c21bfc53f5ca7f7aace599445ea99edb0ff53d44c255ef403cc529d
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libcares, libpcre
+Source: /home/lede/feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 55584
+Filename: shadowsocks-libev-ss-server_3.3.5-1_x86_64.ipk
+Size: 56415
+SHA256sum: 0bcd5f63658e939562b80453a60fcb9d608db4b20b27c6b8253e94dd19042aca
+Description:  shadowsocks-libev ss-server
+
+Package: smartmontools
+Version: 7.2-2
+Depends: libc, libstdcpp6
+Source: /home/lede/feeds/packages/utils/smartmontools
+SourceName: smartmontools
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: x86_64
+Installed-Size: 211957
+Filename: smartmontools_7.2-2_x86_64.ipk
+Size: 212987
+SHA256sum: e79bd83539384f760d7df4d984b3ef997dcb11f6301a81944d6c777bc215e700
+Description:  smartmontools contains utility programs (smartctl) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: strongswan-charon
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-charon
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 240006
+Filename: strongswan-charon_5.9.5-1_x86_64.ipk
+Size: 240784
+SHA256sum: 7eba0965efb75abc4c7d803574f9e83344a6acb7ce9c7836238eeae00ccf925b
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains charon, an IKEv2 keying daemon.
+
+Package: strongswan-ipsec
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-ipsec
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 5943
+Filename: strongswan-ipsec_5.9.5-1_x86_64.ipk
+Size: 6965
+SHA256sum: e62dfde0c5c7b5a049626965dc72db2ba28842ef20cdf0b70b863379fd38cf86
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the ipsec utility.
+
+Package: strongswan-minimal
+Version: 5.9.5-1
+Depends: libc, strongswan, strongswan-charon, strongswan-mod-aes, strongswan-mod-gmp, strongswan-mod-hmac, strongswan-mod-kernel-netlink, strongswan-mod-nonce, strongswan-mod-pubkey, strongswan-mod-random, strongswan-mod-sha1, strongswan-mod-socket-default, strongswan-mod-stroke, strongswan-mod-updown, strongswan-mod-x509, strongswan-mod-xcbc
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-minimal
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 104
+Filename: strongswan-minimal_5.9.5-1_x86_64.ipk
+Size: 1090
+SHA256sum: d2b955ae8649adcc02ab9b7b0623d7349ead9e65e60414b1ef404d5976596eec
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This meta-package contains only dependencies for a minimal IKEv2 setup.
+
+Package: strongswan-mod-aes
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-aes
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 15684
+Filename: strongswan-mod-aes_5.9.5-1_x86_64.ipk
+Size: 15973
+SHA256sum: b887d4327416e0ba6bb4f0c4d7daf9bcbb2fc8736fd9a4dc6cdb47b608cabe59
+Description:  StrongSwan AES crypto plugin
+
+Package: strongswan-mod-gmp
+Version: 5.9.5-1
+Depends: libc, strongswan, libgmp10
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-gmp
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 12367
+Filename: strongswan-mod-gmp_5.9.5-1_x86_64.ipk
+Size: 13160
+SHA256sum: 69dc143134768367fc22e36849295aabdd18b046ed46b955bc54dd14fec8a036
+Description:  StrongSwan libgmp plugin
+
+Package: strongswan-mod-hmac
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-hmac
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 2505
+Filename: strongswan-mod-hmac_5.9.5-1_x86_64.ipk
+Size: 3331
+SHA256sum: 8cbb1013b64b32b310f7de43b39518f2c5d6ca94713cc136fc3660081448d978
+Description:  StrongSwan HMAC crypto plugin
+
+Package: strongswan-mod-kernel-libipsec
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-kernel-libipsec
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 21398
+Filename: strongswan-mod-kernel-libipsec_5.9.5-1_x86_64.ipk
+Size: 22214
+SHA256sum: 1290b9195acfc676672d3834e512ae8b4a08c8ce82217c3d9af97fce98a33dd1
+Description:  StrongSwan libipsec kernel interface plugin
+
+Package: strongswan-mod-kernel-netlink
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-kernel-netlink
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 35672
+Filename: strongswan-mod-kernel-netlink_5.9.5-1_x86_64.ipk
+Size: 36541
+SHA256sum: 7826b60dd937d9454da73befa0ed0119138dc8530105264e6e87f7ba1fd12b3c
+Description:  StrongSwan netlink kernel interface plugin
+
+Package: strongswan-mod-nonce
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-nonce
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 1650
+Filename: strongswan-mod-nonce_5.9.5-1_x86_64.ipk
+Size: 2470
+SHA256sum: 285eef98a94195a2d8361b2a4079225938dc0d14056119614bf57e7611856243
+Description:  StrongSwan nonce genereation plugin
+
+Package: strongswan-mod-pubkey
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-pubkey
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 2804
+Filename: strongswan-mod-pubkey_5.9.5-1_x86_64.ipk
+Size: 3644
+SHA256sum: f2261ac659da85a6389234fd06526a65926f2a034f64cb220fa459f17e65c555
+Description:  StrongSwan raw public key plugin
+
+Package: strongswan-mod-random
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-random
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 2534
+Filename: strongswan-mod-random_5.9.5-1_x86_64.ipk
+Size: 3351
+SHA256sum: daf7be47b2e1280f261ad34d72cfd23f69503a4bd46a77f3386d005b3024179b
+Description:  StrongSwan RNG plugin
+
+Package: strongswan-mod-sha1
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-sha1
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 5648
+Filename: strongswan-mod-sha1_5.9.5-1_x86_64.ipk
+Size: 6462
+SHA256sum: 801d2bfa5dbae12a5f7eb27d9d913fc8539d154cc818ac0c4f7e826919e2da8a
+Description:  StrongSwan SHA1 crypto plugin
+
+Package: strongswan-mod-socket-default
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-socket-default
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 5343
+Filename: strongswan-mod-socket-default_5.9.5-1_x86_64.ipk
+Size: 6182
+SHA256sum: 7b7ba9f7ae12043b4f45a0fc7b648266af25b0bd2d9e98ccda13ab9fa9baf985
+Description:  StrongSwan default socket implementation for charon plugin
+
+Package: strongswan-mod-stroke
+Version: 5.9.5-1
+Depends: libc, strongswan, strongswan-charon, strongswan-ipsec
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-stroke
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 66045
+Filename: strongswan-mod-stroke_5.9.5-1_x86_64.ipk
+Size: 66881
+SHA256sum: 826842c4624219c707e8a20010b9a2fa204088aa278a608a7c625c946c2ab7a3
+Description:  StrongSwan Stroke plugin
+
+Package: strongswan-mod-updown
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-updown
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 9035
+Filename: strongswan-mod-updown_5.9.5-1_x86_64.ipk
+Size: 9878
+SHA256sum: bf6e6f011567bd45ab05bee2e3f98adb70af558c88bb19aa679c8654d00121f5
+Description:  StrongSwan updown firewall plugin
+
+Package: strongswan-mod-x509
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-x509
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 31205
+Filename: strongswan-mod-x509_5.9.5-1_x86_64.ipk
+Size: 31985
+SHA256sum: 579c92067646f69e6b37f471eb8c71011001533d72d00f48a7d597e6e0580691
+Description:  StrongSwan x509 certificate plugin
+
+Package: strongswan-mod-xauth-generic
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-xauth-generic
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 2950
+Filename: strongswan-mod-xauth-generic_5.9.5-1_x86_64.ipk
+Size: 3796
+SHA256sum: 65f3f9076ce6e9e735f6ff620b53e99293c9e18acbdc0ad4025761c042a3e930
+Description:  StrongSwan generic XAuth backend plugin
+
+Package: strongswan-mod-xcbc
+Version: 5.9.5-1
+Depends: libc, strongswan
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan-mod-xcbc
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 3062
+Filename: strongswan-mod-xcbc_5.9.5-1_x86_64.ipk
+Size: 3906
+SHA256sum: 35b6df2b2e333f881593e20f8ecfeb0cf288287c4f6cc8a61b2b3acf4af7f2b7
+Description:  StrongSwan xcbc crypto plugin
+
+Package: strongswan
+Version: 5.9.5-1
+Depends: libc, libpthread, ip, kmod-crypto-authenc, kmod-ipsec, kmod-ipsec4, kmod-ipsec6, kmod-ipt-ipsec, iptables-mod-ipsec
+Source: /home/lede/feeds/packages/net/strongswan
+SourceName: strongswan
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: x86_64
+Installed-Size: 168221
+Filename: strongswan_5.9.5-1_x86_64.ipk
+Size: 168826
+SHA256sum: d55335edbfce11b2a6ef448aab1b019a8ecbf98d4ad7a76dcbf399e44bf52c58
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains shared libraries and scripts.
+
+Package: tar
+Version: 1.34-1
+Depends: xz, libc, bzip2
+Alternatives: 300:/bin/tar:/usr/libexec/tar-gnu
+Source: /home/lede/feeds/packages/utils/tar
+SourceName: tar
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:gnu:tar
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: x86_64
+Installed-Size: 202311
+Filename: tar_1.34-1_x86_64.ipk
+Size: 203276
+SHA256sum: a036b0a61e9e795dab01c6d1ce7adf9e2da88f2b3aaecbcbf44ca376526b52e9
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
+
+Package: tini
+Version: 0.19.0-2
+Depends: libc
+Source: /home/lede/feeds/packages/utils/tini
+SourceName: tini
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1646960045
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: x86_64
+Installed-Size: 31137
+Filename: tini_0.19.0-2_x86_64.ipk
+Size: 31775
+SHA256sum: 15491cae8674da21ee5f35cdc66317f567cff2042bf947241bd3167f0de11ef2
+Description:  A tiny but valid init process for containers.
+
+Package: ttyd
+Version: 1.6.3-3
+Depends: libc, libopenssl1.1, libjson-c5, libuv1, zlib, libwebsockets-full
+Source: /home/lede/feeds/packages/utils/ttyd
+SourceName: ttyd
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1646960045
+Maintainer: Shuanglei Tao <tsl0922@gmail.com>
+Architecture: x86_64
+Installed-Size: 250607
+Filename: ttyd_1.6.3-3_x86_64.ipk
+Size: 251540
+SHA256sum: 044f05f86e8ef3cfbceff82dfe17b3e00e7b6d7bd4c5e3b6b5764de36c654ce3
+Description:  ttyd is a command-line tool for sharing terminal over the web.
+
+Package: usbids
+Version: 0.347-1
+Depends: libc
+Source: /home/lede/feeds/packages/utils/hwdata
+SourceName: usbids
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1646960045
+Architecture: x86_64
+Installed-Size: 249457
+Filename: usbids_0.347-1_x86_64.ipk
+Size: 250049
+SHA256sum: b89e1da00801d74314221adbe205dd6e21673eb098d15d46907876eb8be0706b
+Description:  USB ID list
+
+Package: usbutils
+Version: 013-2
+Depends: libc, libusb-1.0-0, libudev, usbids, librt, libpthread
+Source: /home/lede/feeds/packages/utils/usbutils
+SourceName: usbutils
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 54227
+Filename: usbutils_013-2_x86_64.ipk
+Size: 54958
+SHA256sum: 60a48f2d4ee9f117c32bb0cf94d909fce10847193352590f5fe0a31ac4699dae
+Description:  USB devices listing utilities
+
+Package: uugamebooster
+Version: v2.21.12-1
+Depends: libc, kmod-tun
+Source: /home/lede/feeds/packages/net/uugamebooster
+SourceName: uugamebooster
+Section: net
+SourceDateEpoch: 1648551458
+Architecture: x86_64
+Installed-Size: 1382328
+Filename: uugamebooster_v2.21.12-1_x86_64.ipk
+Size: 1382137
+SHA256sum: bbd22fd3947221f5fe5347ca18cf314cb3c914b4f6bd8b26ed3a4488a07666b4
+Description:  NetEase's UU Game Booster Accelerates Triple-A Gameplay and Market
+
+Package: vlmcsd
+Version: svn1113-3
+Depends: libc, libpthread
+Source: /home/lede/feeds/packages/net/vlmcsd
+SourceName: vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: fuyumi <280604399@qq.com>
+Architecture: x86_64
+Installed-Size: 22717
+Filename: vlmcsd_svn1113-3_x86_64.ipk
+Size: 23437
+SHA256sum: f8407cb7f99a0fa2f526fa4381959c962300c5bb777480e697984ff68d743db0
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: vnstat
+Version: 1.18-2
+Depends: libc
+Source: /home/lede/feeds/packages/net/vnstat
+SourceName: vnstat
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 75234
+Filename: vnstat_1.18-2_x86_64.ipk
+Size: 76291
+SHA256sum: 2abe7e5c9bcdff72e813749120b439ce2bddc5913387b84413b1ad1b9b8b8da5
+Description:  vnStat is a network traffic monitor for Linux that keeps a log of daily
+ network traffic for the selected interface(s). vnStat isn't a packet
+ sniffer. The traffic information is analyzed from the /proc -filesystem,
+ so vnStat can be used without root permissions.
+
+Package: vnstati
+Version: 1.18-2
+Depends: libc, vnstat, libgd
+Source: /home/lede/feeds/packages/net/vnstat
+SourceName: vnstati
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 33338
+Filename: vnstati_1.18-2_x86_64.ipk
+Size: 34259
+SHA256sum: cc5308bacca9d040327f6c65b8f6d2bf5bb039e2567922b778b2ae701bd3cac2
+Description:  The purpose of vnstati is to provide image output support for statistics
+ collected using vnstat(1). However, the image file format is limited to
+ png. All basic outputs of vnStat are supported excluding live traffic
+ features. The image can be outputted either to a file or to standard
+ output.
+
+Package: wget-ssl
+Version: 1.21.2-1
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-ssl
+Source: /home/lede/feeds/packages/net/wget
+SourceName: wget-ssl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:gnu:wget
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: x86_64
+Installed-Size: 217052
+Filename: wget-ssl_1.21.2-1_x86_64.ipk
+Size: 218216
+SHA256sum: d32e8d1d608ea051ed5153558988540e97e0530a354f88a17250b6980606917a
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: wsdd2
+Version: 2021-10-22-9831daf2-1
+Depends: libc
+Source: /home/lede/feeds/packages/net/wsdd2
+SourceName: wsdd2
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1646960045
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: x86_64
+Installed-Size: 19073
+Filename: wsdd2_2021-10-22-9831daf2-1_x86_64.ipk
+Size: 20039
+SHA256sum: fa8f9cb385534c242dcba914815ff4b6d7578cf30190bb2f29480f3a2e7cf6e7
+Description:  Web Services for Devices or Web Services on Devices (WSD),
+ is a Microsoft API to simplify programming connections to web service
+ enabled devices, such as printers, scanners and file shares.
+ 
+ This daemon advertises and responds to probe requests from Windows clients looking for file shares.
+ It also implements LLMNR multicast name lookup services.
+
+Package: xz-utils
+Version: 5.2.5-3
+Depends: libc
+Source: /home/lede/feeds/packages/utils/xz
+SourceName: xz-utils
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 104
+Filename: xz-utils_5.2.5-3_x86_64.ipk
+Size: 865
+SHA256sum: 7655cfbb6dbe3bb6caeb23c1355547f83f2942a84b35c3d3847f85ed877c49e1
+Description:  XZ Utils (meta)
+
+Package: xz
+Version: 5.2.5-3
+Depends: libc, xz-utils, liblzma
+Alternatives: 300:/usr/bin/xz:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzcat:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unlzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unxz:/usr/libexec/xz-lzmautils, 300:/usr/bin/xzcat:/usr/libexec/xz-lzmautils
+Source: /home/lede/feeds/packages/utils/xz
+SourceName: xz
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 27743
+Filename: xz_5.2.5-3_x86_64.ipk
+Size: 28608
+SHA256sum: f76a38f15173600876cb8a8254f6eea5456df9e4cc71b25025dce047672b1cbd
+Description:  Contains: xz  lzcat lzma unlzma unxz xzcat
+
+Package: youtube-dl
+Version: 2021.4.7-1
+Depends: libc, ca-certificates, python3, python3-email, python3-xml, python3-codecs, python3-ctypes, python3-setuptools
+Source: /home/lede/feeds/packages/multimedia/youtube-dl
+SourceName: youtube-dl
+License: Unlicense
+LicenseFiles: LICENSE
+Section: multimedia
+SourceDateEpoch: 1646960045
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
+Architecture: x86_64
+Installed-Size: 1820321
+Filename: youtube-dl_2021.4.7-1_x86_64.ipk
+Size: 1821128
+SHA256sum: 79c7aef971b38e8083d1fca00dd09e94d8c2accb1b6dad5b8a815115a849e100
+Description:  youtube-dl is a small command-line program to download videos
+ from YouTube.com and other video sites.
+ It requires the Python3 interpreter.
+
+Package: zerotier
+Version: 1.8.4-1
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1
+Source: /home/lede/feeds/packages/net/zerotier
+SourceName: zerotier
+License: BSL 1.1
+LicenseFiles: LICENSE.txt
+Section: net
+SourceDateEpoch: 1647962534
+Maintainer: Moritz Warning <moritzwarning@web.de>
+Architecture: x86_64
+Installed-Size: 509734
+Filename: zerotier_1.8.4-1_x86_64.ipk
+Size: 510606
+SHA256sum: 1dad6713011160c8a7e605a61fd316fbd50c3698c27d237c4b3ce64bf931d3c2
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+
+Package: zsh
+Version: 5.8.1-1
+Depends: libc, libcap, libncurses6, libncursesw6, libpcre, librt
+Source: /home/lede/feeds/packages/utils/zsh
+SourceName: zsh
+License: ZSH
+LicenseFiles: LICENCE
+Section: utils
+SourceDateEpoch: 1646960045
+CPE-ID: cpe:/a:zsh_project:zsh
+Maintainer: Vadim A. Misbakh-Soloviov <openwrt-zsh@mva.name>
+Architecture: x86_64
+Installed-Size: 1847471
+Filename: zsh_5.8.1-1_x86_64.ipk
+Size: 1845804
+SHA256sum: 46955d4d835375df6d866fa8760fd9264a40d5df6f05c20b974c818cfe164ce4
+Description:  Zsh is a UNIX command interpreter (shell) usable as an interactive
+ login  shell  and  as a shell script command processor. Of the standard
+ shells, zsh most closely resembles ksh but includes many enhancements.
+ Zsh has command line editing, builtin spelling correction, programmable
+ command completion, shell functions (with autoloading), a history
+ mechanism, and a host of other features.
+

@@ -1,0 +1,98 @@
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: x86_64
+Installed-Size: 2352
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_x86_64.ipk
+Size: 3095
+SHA256sum: 7c9181d33f9a35c53529087f0208aec53fe338edf8acb5356ead95f26399a51e
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: x86_64
+Installed-Size: 61680
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_x86_64.ipk
+Size: 62571
+SHA256sum: ed393296adbed56e0b35c83b8f660e7f7b761764a0b2bf6be5f9fbdc9bbafcf8
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: x86_64
+Installed-Size: 55638
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_x86_64.ipk
+Size: 56462
+SHA256sum: c6679690e2d3efeb76ce20f4001e812991b6fe5c3ed162c8d71e8d0c3a51616c
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: x86_64
+Installed-Size: 65298
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_x86_64.ipk
+Size: 66153
+SHA256sum: f989b0911d9153b518bcfddc4e0dd3973dc18413ed8fe6eb34fe2c38c4636f5c
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-client
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+License: GPL-3.0-or-later
+Section: net
+Architecture: x86_64
+Installed-Size: 30208
+Filename: simple-obfs-client_0.0.5-1_x86_64.ipk
+Size: 30995
+SHA256sum: b8fad10005cebf0192efa8ed7e33fc84672b84e1932e525c0fd136830248255c
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+License: GPL-3.0
+Section: net
+Architecture: x86_64
+Installed-Size: 283297
+Filename: trojan_1.16.0-2_x86_64.ipk
+Size: 284173
+SHA256sum: 75be0328b776f6ca808143126696d3e2e85f532008865309caa7f58a8b5f8a37
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: xray-core
+Version: 1.5.4-1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 7113932
+Filename: xray-core_1.5.4-1_x86_64.ipk
+Size: 7099272
+SHA256sum: e117e735aaa54f66b588744594eaa5d710424af7973ec1d40a53420aef3f8e85
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-plugin
+Version: 1.5.4-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: x86_64
+Installed-Size: 5477973
+Filename: xray-plugin_1.5.4-1_x86_64.ipk
+Size: 5467683
+SHA256sum: 427592ba28707c8801fd735cba586e9a4d6360cedb57d75b2bc59889c8089e4c
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+

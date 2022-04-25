@@ -1,0 +1,56 @@
+Package: luci-app-ddnsto
+Version: 1.0.1-1
+Depends: libc, ddnsto
+Source: /home/lede/feeds/nas_luci/luci/luci-app-ddnsto
+SourceName: luci-app-ddnsto
+Section: luci
+SourceDateEpoch: 1645088115
+Architecture: all
+Installed-Size: 1530
+Filename: luci-app-ddnsto_1.0.1-1_all.ipk
+Size: 2307
+SHA256sum: adb207dac50c56153478cff38dd4f56a2246ec67a8bcec943f52873327efee9a
+Description:  LuCI support for ddnsto
+
+Package: luci-app-linkease
+Version: 2.1.1-2
+Depends: libc, linkease
+Source: /home/lede/feeds/nas_luci/luci/luci-app-linkease
+SourceName: luci-app-linkease
+Section: luci
+SourceDateEpoch: 1645088115
+Architecture: all
+Installed-Size: 1545
+Filename: luci-app-linkease_2.1.1-2_all.ipk
+Size: 2325
+SHA256sum: 1f88db312878c06420aaafb3e15745140f56ad355e11f54bec58ae1b58575958
+Description:  LuCI support for linkease
+
+Package: luci-i18n-ddnsto-zh-cn
+Version: 1.0.1-1
+Depends: libc, luci-app-ddnsto
+Source: /home/lede/feeds/nas_luci/luci/luci-app-ddnsto
+SourceName: luci-i18n-ddnsto-zh-cn
+Section: luci
+SourceDateEpoch: 1645088115
+Architecture: all
+Installed-Size: 719
+Filename: luci-i18n-ddnsto-zh-cn_1.0.1-1_all.ipk
+Size: 1558
+SHA256sum: 341e5869f6b115a44fff02f2e3e61bb5fa18ff6d9303ee8cfa34a0706ddd3c67
+Description:  Translation for luci-app-ddnsto - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-linkease-zh-cn
+Version: 2.1.1-2
+Depends: libc, luci-app-linkease
+Source: /home/lede/feeds/nas_luci/luci/luci-app-linkease
+SourceName: luci-i18n-linkease-zh-cn
+Section: luci
+SourceDateEpoch: 1645088115
+Architecture: all
+Installed-Size: 853
+Filename: luci-i18n-linkease-zh-cn_2.1.1-2_all.ipk
+Size: 1713
+SHA256sum: 723112f3a0a40254b791e2e27353619577e5943650dbde39d75a42f1cb8579f5
+Description:  Translation for luci-app-linkease - 简体中文 (Simplified Chinese)
+

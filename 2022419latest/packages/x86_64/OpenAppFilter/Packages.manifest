@@ -1,0 +1,42 @@
+Package: appfilter
+Version: 5.0-1
+Depends: libc, libubox20210516, libubus20210603, libuci20130104, libpthread, libjson-c5, libblobmsg-json20210516
+Source: /home/lede/feeds/OpenAppFilter/open-app-filter
+SourceName: appfilter
+Section: Derry Apps
+SourceDateEpoch: 1648112931
+Architecture: x86_64
+Installed-Size: 16545
+Filename: appfilter_5.0-1_x86_64.ipk
+Size: 17309
+SHA256sum: 2f4ed156059e1a7ac4027ed761e438bbcde9b9c50d8e074a143e7ca59104eac2
+Description:  open appfilter app
+
+Package: luci-app-oaf
+Version: 5.0-1
+Depends: libc, kmod-oaf, appfilter
+Source: /home/lede/feeds/OpenAppFilter/luci-app-oaf
+SourceName: luci-app-oaf
+Section: luci
+SourceDateEpoch: 1648112931
+Architecture: all
+Installed-Size: 268114
+Filename: luci-app-oaf_5.0-1_all.ipk
+Size: 269094
+SHA256sum: d8d67a8833eedb0d27797f55ae00c9c819f9b3c61aa9c8c57cb8e2129bbe9dc5
+Description:  Open App Filter Module
+
+Package: luci-i18n-oaf-zh-cn
+Version: 5.0-1
+Depends: libc, luci-app-oaf
+Source: /home/lede/feeds/OpenAppFilter/luci-app-oaf
+SourceName: luci-i18n-oaf-zh-cn
+Section: luci
+SourceDateEpoch: 1648112931
+Architecture: all
+Installed-Size: 1542
+Filename: luci-i18n-oaf-zh-cn_5.0-1_all.ipk
+Size: 2393
+SHA256sum: b6a7ccaccb8fc2b48d8aa575f3eec075b08855923c7f494d071616a4ce8be259
+Description:  Translation for luci-app-oaf - 简体中文 (Simplified Chinese)
+

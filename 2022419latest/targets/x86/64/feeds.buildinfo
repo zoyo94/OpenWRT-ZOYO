@@ -1,0 +1,9 @@
+src-git packages https://github.com/coolsnowwolf/packages^a1eaff1
+src-git luci https://github.com/coolsnowwolf/luci^5895936
+src-git routing https://git.openwrt.org/feed/routing.git^d929509
+src-git telephony https://git.openwrt.org/feed/telephony.git^cf06463
+src-git nas https://github.com/linkease/nas-packages.git^9e0d827
+src-git nas_luci https://github.com/linkease/nas-packages-luci.git^7d4ff11
+src-git kenzo https://github.com/kenzok8/openwrt-packages.git^ddc79fb
+src-git small https://github.com/kenzok8/small.git^a86f10a
+src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git^8d60913
